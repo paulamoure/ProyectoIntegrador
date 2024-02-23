@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style-acc.css">
-    <title>BrainWave | Login</title>
+    <title>BrainWave|Login</title>
 </head>
 <body>
     <!-- botón para cerrar la página -->
