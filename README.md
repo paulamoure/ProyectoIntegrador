@@ -36,4 +36,3 @@ Este proyecto integrador tiene como objetivo principal la creación de una plata
 
 Este proyecto está bajo la Licencia [MIT](LICENSE).
 
-# ProyectoIntegrador
