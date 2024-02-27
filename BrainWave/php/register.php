@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style-acc.css">
-    <title>BrainWave | Login</title>
+    <title>BrainWave | Register</title>
 </head>
+
 <body>
     <!-- botón para cerrar la página -->
     <button class="btn-close reg">
@@ -46,22 +47,23 @@
                 <label>Password</label>
                 <div id="error_pwd" style="display:none;"></div>
             </div>
-            <div class="boton-secundario"><button class="button" type="button" onclick="redirect()" id="btn_R" disabled>ENTRAR</button></div>
+            <div class="boton-secundario">
+                <button class="button" type="button" onclick="redirect()" id="btn_R" disabled>REGISTER</button>
+            </div>
             <div id="registro_ok" style="display:none;"></div>
         </form>
         <br>
         <!-- "Footer"  -->
         <div class="crea-cuenta-login">
-            <p>Ya tienes una cuenta?</p><a href="login.html">Login</a>
+            <p>Ya tienes una cuenta?</p><a href="login.php">Login</a>
         </div>
         <div class="terms">
             <a href="https://app.privacypolicies.com/wizard/terms-conditions" target="_blank">Términos y Condiciones</a>
         </div>
     </div>
     <?php
-    // Asegúrate de incluir tus archivos de conexión y funciones
+    // Asegúrate de incluir tu archivo de conexión
     require_once "conecta.php";
-    require_once "tablas2.php";
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $nombre = $_POST["nombre"];
@@ -85,7 +87,8 @@
             // Insertar en la tabla login
             $consulta_login = "INSERT INTO login (username, password) VALUES (?, ?)";
             $stmt_login = mysqli_prepare($conexion, $consulta_login);
-            mysqli_stmt_bind_param($stmt_login, 'ss', $username, $password);
+            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+            mysqli_stmt_bind_param($stmt_login, 'ss', $username, $hashed_password);
             mysqli_stmt_execute($stmt_login);
             $id_login = mysqli_insert_id($conexion);
 
@@ -96,19 +99,19 @@
                 $stmt_pacientes_login = mysqli_prepare($conexion, $consulta_pacientes_login);
                 mysqli_stmt_bind_param($stmt_pacientes_login, 'ii', $id_paciente, $id_login);
                 mysqli_stmt_execute($stmt_pacientes_login);
+                echo "<div id='registro_ok'>Registro exitoso.</div>";
             } else {
-                echo "<p>Error al registrar en login</p>";
+                echo "<div>Error al registrar en login</div>";
             }
         } else {
-            echo "<p>Error al registrar en perfiles_personas</p>";
+            echo "<div>Error al registrar en perfiles_personas</div>";
         }
 
         // Cerrar la conexión
         mysqli_close($conexion);
     }
     ?>
-
-    </div>
     <script src="../js/registro.js"></script>
 </body>
+
 </html>
