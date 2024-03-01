@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --text-button: Poppins;
+  --font-font-awesome-5-free: "Font Awesome 5 Free";
+  --font-roboto: Roboto;
+  --font-anton: Anton;
+  --font-antic-slab: "Antic Slab";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --text-button-size: 15px;
+  --font-size-31xl: 50px;
+  --font-size-smi: 13px;
+  --font-size-base: 16px;
+  --font-size-51xl: 70px;
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --font-size-21xl: 40px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --brand-white: #fff;
+  --color-black: #000;
+  --low-blue: #85c5ff;
+  --color-tomato: #ef5754;
+  --color-gray-100: rgba(255, 255, 255, 0.2);
+  --green: #47df9f;
+  --brand-grey: #bfbfbf;
+
+  /* Border radiuses */
+  --br-mini: 15px;
+  --br-smi: 13px;
+  --br-3xs: 10px;
+  --br-31xl: 50px;
+  --br-13xl: 32px;
+  --br-6xl: 25px;
+}
