@@ -1,0 +1,462 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ERROR {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    }
+    .ERROR .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1567px;
+    height: 1588px;
+    }
+    .ERROR .overlap {
+    position: relative;
+    width: 1575px;
+    height: 1588px;
+    }
+    .ERROR .content {
+    position: absolute;
+    width: 1571px;
+    height: 1185px;
+    top: 1px;
+    left: 0;
+    }
+    .ERROR .overlap-group {
+    position: relative;
+    width: 1567px;
+    height: 1185px;
+    background: linear-gradient(
+    180deg,
+    rgb(254, 176.26, 85) 0%,
+    rgb(254, 127, 86) 30.73%,
+    rgb(240, 90, 84) 66.15%,
+    rgb(216, 44, 105.92) 100%
+    );
+    }
+    .ERROR .div {
+    position: absolute;
+    width: 670px;
+    height: 361px;
+    top: 243px;
+    left: 465px;
+    }
+    .ERROR .text-wrapper {
+    position: absolute;
+    width: 670px;
+    top: 0;
+    left: 0;
+    font-family: var(--404-text-font-family);
+    font-weight: var(--404-text-font-weight);
+    color: var(--white);
+    font-size: calc(var(--404-text-font-size)/2);
+    text-align: center;
+    letter-spacing: var(--404-text-letter-spacing);
+    line-height: var(--404-text-line-height);
+    font-style: var(--404-text-font-style);
+    }
+    .ERROR .robot {
+    position: absolute;
+    width: 242px;
+    height: 228px;
+    top: 133px;
+    left: 206px;
+    object-fit: cover;
+    }
+    .ERROR .p {
+    position: absolute;
+    width: 542px;
+    top: 615px;
+    left: 513px;
+    font-family: var(--h4-font-family);
+    font-weight: var(--h4-font-weight);
+    color: var(--white);
+    font-size: calc(var(--h4-font-size)/1,1);
+    text-align: center;
+    letter-spacing: var(--h4-letter-spacing);
+    line-height: var(--h4-line-height);
+    font-style: var(--h4-font-style);
+    }
+    .ERROR .footer {
+    position: absolute;
+    width: 1575px;
+    height: 720px;
+    top: 868px;
+    left: 0;
+    background-color: transparent;
+    }
+    .ERROR .overlap-2 {
+    position: relative;
+    width: 1575px;
+    height: 649px;
+    top: 71px;
+    }
+    .ERROR .BRAINWAVE {
+    position: absolute;
+    width: 100%; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    height: 127px;
+    top: 0;
+    left: 168px;
+    }
+    .ERROR .rectangle {
+    position: absolute;
+    width: 1567px;
+    height: 525px;
+    top: 125px;
+    left: 0;
+    }
+    .ERROR .misc {
+    position: absolute;
+    width: 1416px;
+    height: 1px;
+    top: 562px;
+    left: 71px;
+    background-image: url(./img/line-3.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+    }
+    .ERROR .contacto {
+    position: absolute;
+    width: 168px;
+    height: 268px;
+    top: 195px;
+    left: 1338px;
+    }
+    .ERROR .subscribe {
+    position: absolute;
+    width: 118px;
+    top: 218px;
+    left: 0;
+    font-family: var(--text-button-font-family);
+    font-weight: var(--text-button-font-weight);
+    color: var(--white);
+    font-size: var(--text-button-font-size);
+    text-align: center;
+    letter-spacing: var(--text-button-letter-spacing);
+    line-height: var(--text-button-line-height);
+    font-style: var(--text-button-font-style);
+    }
+    .ERROR .text-wrapper-2 {
+    width: 53px;
+    top: 76px;
+    left: 110px;
+    position: absolute;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-weight: 400;
+    color: var(--brandwhite);
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .ERROR .text-wrapper-3 {
+    width: 37px;
+    top: 0;
+    left: 117px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-weight: 400;
+    color: var(--brandwhite);
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .ERROR .footer-2 {
+    position: absolute;
+    width: 1513px;
+    height: 453px;
+    top: 183px;
+    left: 62px;
+    }
+    .ERROR .img {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    top: 276px;
+    left: 212px;
+    object-fit: cover;
+    }
+    .ERROR .rectangle-2 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    top: 276px;
+    left: 113px;
+    object-fit: cover;
+    }
+    .ERROR .rectangle-3 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    top: 276px;
+    left: 14px;
+    object-fit: cover;
+    }
+    .ERROR .boton-secundario {
+    width: 225px;
+    height: 86px;
+    top: 0;
+    left: 0;
+    background-color: var(--garnet);
+    border-radius: 30px;
+    position: absolute;
+    box-shadow: 6px 6px 4px #00000040;
+    }
+    .ERROR .button {
+    all: unset;
+    box-sizing: border-box;
+    width: 225px;
+    height: 86px;
+    top: -1px;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    line-height: normal;
+    }
+    .ERROR .redes-sociales {
+    position: absolute;
+    width: 291px;
+    top: 125px;
+    left: 16px;
+    font-family: "Poppins-Black", Helvetica;
+    font-weight: 900;
+    color: var(--garnet);
+    font-size: 35px;
+    letter-spacing: 2.45px;
+    line-height: normal;
+    }
+    .ERROR .politica-de {
+    position: absolute;
+    width: 248px;
+    top: 405px;
+    left: 1010px;
+    font-family: "Poppins-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.98px;
+    line-height: normal;
+    }
+    .ERROR .disclamer {
+    position: absolute;
+    width: 113px;
+    top: 406px;
+    left: 842px;
+    font-family: "Poppins-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.98px;
+    line-height: normal;
+    }
+    .ERROR .terminos-de-uso {
+    position: absolute;
+    width: 238px;
+    top: 406px;
+    left: 1267px;
+    font-family: "Poppins-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.98px;
+    line-height: normal;
+    }
+    .ERROR .element-calle-de-la {
+    position: absolute;
+    width: 710px;
+    top: 226px;
+    left: 720px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 2px;
+    line-height: normal;
+    }
+    .ERROR .brain-wave-us-gmail {
+    position: absolute;
+    width: 477px;
+    top: 286px;
+    left: 952px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 2px;
+    line-height: normal;
+    text-decoration: underline;
+    }
+    .ERROR .brainwave-copyright {
+    position: absolute;
+    width: 360px;
+    top: 590px;
+    left: 76px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: normal;
+    }
+    .ERROR .button-wrapper {
+    position: absolute;
+    width: 207px;
+    height: 76px;
+    top: 692px;
+    left: 687px;
+    background-color: var(--garnet);
+    border-radius: 16px;
+    box-shadow: 6px 6px 4px #00000040;
+    }
+    .ERROR .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    width: 207px;
+    height: 76px;
+    top: -1px;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    line-height: normal;
+    }
+    .ERROR .header {
+    position: absolute;
+    width: 1567px;
+    height: 117px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    background: linear-gradient(
+    180deg,
+    rgb(254, 176.26, 85) 0%,
+    rgb(254, 127, 86) 30.73%,
+    rgb(240, 90, 84) 66.15%,
+    rgb(216, 44, 105.92) 100%
+    );
+    }
+    .ERROR .navbar {
+    position: relative;
+    width: 1567px;
+    height: 117px;
+    background: linear-gradient(
+    180deg,
+    rgb(254, 176.26, 85) 0%,
+    rgb(254, 127, 86) 30.73%,
+    rgb(240, 90, 84) 66.15%,
+    rgb(216, 44, 105.92) 100%
+    );
+    }
+    .ERROR .boton-primario {
+    width: 90px;
+    height: 33px;
+    top: 44px;
+    left: 1310px;
+    background-color: #ffffff;
+    border-radius: 13px;
+    position: absolute;
+    box-shadow: 6px 6px 4px #00000040;
+    }
+    .ERROR .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    width: 90px;
+    height: 33px;
+    top: -4px;
+    font-family: "Roboto-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 13px;
+    letter-spacing: 0.91px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    line-height: normal;
+    }
+    .ERROR .nosotros {
+    position: absolute;
+    width: 95px;
+    height: 25px;
+    top: 47px;
+    left: 1183px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1.12px;
+    line-height: normal;
+    }
+    .ERROR .recursos {
+    position: absolute;
+    width: 89px;
+    height: 25px;
+    top: 47px;
+    left: 1077px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1.12px;
+    line-height: normal;
+    }
+    .ERROR .servicios {
+    position: absolute;
+    width: 89px;
+    height: 25px;
+    top: 47px;
+    left: 972px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1.12px;
+    line-height: normal;
+    }
+    .ERROR .search-wrapper {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    top: 40px;
+    left: 393px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    }
+    .ERROR .search {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 7px;
+    left: 364px;
+    }
+    .ERROR .IMG {
+    position: absolute;
+    width: 86px;
+    height: 83px;
+    top: 17px;
+    left: 58px;
+    object-fit: cover;
+    }
