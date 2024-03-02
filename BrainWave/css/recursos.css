@@ -1,0 +1,275 @@
+.compra-libros {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.compra-libros .overlap {
+    position: absolute;
+    width: 2100px;
+    height: 2507px;
+    top: 397px;
+    left: -270px;
+}
+
+.compra-libros .podcasts {
+    position: absolute;
+    width: 2100px;
+    height: 1492px;
+    top: 185px;
+    left: 0;
+}
+
+.compra-libros .overlap-2 {
+    position: relative;
+    width: 1429px;
+    height: 1492px;
+    left: 270px;
+}
+
+.compra-libros .burbujas {
+    position: absolute;
+    width: 1011px;
+    height: 1131px;
+    top: 361px;
+    left: 0;
+}
+
+.compra-libros .img {
+    position: absolute;
+    width: 965px;
+    height: 1283px;
+    top: 0;
+    left: 464px;
+}
+
+.compra-libros .rectangle {
+    position: absolute;
+    width: 827px;
+    height: 434px;
+    top: 531px;
+    left: 508px;
+    background-color: #eeeeeeab;
+    border-radius: 15px;
+}
+
+.compra-libros .boton-secundario {
+    width: 152px;
+    height: 73px;
+    top: 853px;
+    left: 546px;
+    background-color: #ef5754;
+    border-radius: 30px;
+    position: absolute;
+    box-shadow: 6px 6px 4px #00000040;
+}
+
+.compra-libros .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    position: absolute;
+    width: 152px;
+    height: 73px;
+    top: -1px;
+    left: 0;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 2.24px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.compra-libros .ad-ntrate-en-nuestro {
+    position: absolute;
+    width: 753px;
+    top: 663px;
+    left: 546px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+}
+
+.compra-libros .group {
+    position: absolute;
+    width: 433px;
+    height: 88px;
+    top: 561px;
+    left: 546px;
+}
+
+.compra-libros .text-wrapper-2 {
+    position: absolute;
+    width: 429px;
+    top: 28px;
+    left: 0;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 2.8px;
+    line-height: normal;
+}
+
+.compra-libros .videos {
+    position: absolute;
+    width: 116px;
+    height: 28px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        180deg,
+        rgb(254, 176.26, 85) 0%,
+        rgb(254, 127, 86) 30.73%,
+        rgb(240, 90, 84) 66.15%,
+        rgb(216, 44, 105.92) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.compra-libros .libros {
+    position: absolute;
+    width: 1431px;
+    height: 621px;
+    top: 0;
+    left: 270px;
+}
+
+.compra-libros .overlap-3 {
+    position: relative;
+    width: 1429px;
+    height: 621px;
+    /* background: linear-gradient(180deg, rgba(133, 197, 255, 0.5) 0%, rgb(162.35, 210.95, 255) 0%); */
+}
+
+.compra-libros .overlap-group-2 {
+    position: absolute;
+    width: 792px;
+    height: 445px;
+    top: 88px;
+    left: 96px;
+    background-color: #eeeeeeab;
+    border-radius: 15px;
+}
+
+.compra-libros .button-wrapper {
+    top: 335px;
+    left: 41px;
+    position: absolute;
+    width: 152px;
+    height: 70px;
+    background-color: #ef5754;
+    border-radius: 30px;
+    box-shadow: 6px 6px 4px #00000040;
+}
+
+.compra-libros .te-invitamos-a {
+    position: absolute;
+    width: 711px;
+    top: 141px;
+    left: 41px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+}
+
+.compra-libros .group-2 {
+    left: 41px;
+    position: absolute;
+    width: 433px;
+    height: 88px;
+    top: 43px;
+}
+
+.compra-libros .text-wrapper-3 {
+    position: absolute;
+    width: 149px;
+    height: 28px;
+    top: 0;
+    left: 2px;
+    background: linear-gradient(180deg,rgb(254, 176.26, 85) 0%,rgb(254, 127, 86) 30.73%,rgb(240, 90, 84) 66.15%,rgb(216, 44, 105.92) 100%);
+    background-clip: text;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 550;
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.compra-libros .articulos {
+    position: absolute;
+    width: 1433px;
+    height: 860px;
+    top: 1244px;
+    left: 269px;
+}
+
+.compra-libros .overlap-4 {
+    position: relative;
+    width: 1431px;
+    height: 860px;
+}
+
+.compra-libros .overlap-group-3 {
+    position: absolute;
+    width: 827px;
+    height: 458px;
+    top: 58px;
+    left: 59px;
+    background-color: #eeeeeeab;
+    border-radius: 15px;
+}
+
+.compra-libros .div-wrapper {
+    top: 326px;
+    left: 49px;
+    position: absolute;
+    width: 152px;
+    height: 73px;
+    background-color: #ef5754;
+    border-radius: 30px;
+    box-shadow: 6px 6px 4px #00000040;
+}
+
+.compra-libros .p {
+    position: absolute;
+    width: 729px;
+    top: 140px;
+    left: 49px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+}
+
+.compra-libros .group-3 {
+    left: 49px;
+    position: absolute;
+    width: 433px;
+    height: 88px;
+    top: 43px;
+}

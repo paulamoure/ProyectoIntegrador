@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,700|Anton:400|Antic+Slab:400");
+@import url('https://fonts.googleapis.com/css2? family= Anton & display=swap');
+
+html {
+  height: 100%;
+}
+body {
+  margin-left:25%;
+  padding:0;
+  background: white;
+}
+
+.box {
+  position: relative;
+  margin-top: 390px;
+  top: 50%;
+  left: 32%;
+  width: 520px;
+  height: 750px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(130deg, #52F1AE, #23006E);
+  font-family: "Poppins", Helvetica;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 30px;
+}
+
+.registro{
+  margin-top: 455px;
+  height: 905px;  
+  background: linear-gradient(130deg, #52F1AE, #23006E);
+}
+
+/* .btn-close {
+  position: absolute;
+  top: 30px;
+  right: 515px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  color: white;
+} */
+
+.reg{
+  top: 90px;
+}
+
+
+.box .img {
+  position: relative;
+  width: 40%;
+  top: -12px;
+  left: 130px;
+}
+
+.box .login {
+  margin: -33px 0 40px 0;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 2px #000000;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.registro .span2{
+  color: #e2405a;
+}
+
+.box .span {
+  color: #2a2a7e;
+}
+
+.box .text-wrapper-2 {
+  color: #ffffff;
+}
+  
+.box .user-box {
+  position: relative;
+}
+  
+.box .user-box input {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 12px 0;
+  font-family: "Poppins", Helvetica;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 19px;
+  font-weight: 90;
+  letter-spacing: 2px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.box .user-box input:focus ~ label,
+.box .user-box input:valid ~ label {
+  top: -23px;
+  left: 0;
+  color: #00266e;
+  font-size: 13px;
+}
+
+.user-box .toggle-eye {
+  color: white;
+  position: absolute;
+  top: 30%;
+  right: 1%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.user-box #eye-icon {
+  width: 28px;
+  height: auto;
+}
+
+.box .user-box .forgotten-pwd {
+  font-family: 'Poppins';
+  font-size: 14px;
+  padding-top: 15px;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 2px;
+  left: 243px;
+  bottom: 15px;
+  color: #fff;
+}
+
+#error_user,
+#error_pwd,
+#error_name,
+#error_lastname,
+#error_mail{
+    color: rgb(252, 115, 69);
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: -20px;
+    margin-bottom: 18px;
+}
+
+/* BOTÓN */
+.boton-secundario{
+  text-align: center;
+}
+
+.boton-secundario .button {
+  align-self: center;
+  position: relative;
+  border-radius: 25px;
+  background: linear-gradient(    
+  150deg,
+  rgb(254, 176.26, 85) 0%,
+  rgb(254, 127, 86) 30.73%,
+  rgb(240, 90, 84) 66.15%,
+  rgb(216, 44, 105.92) 100%
+  );
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  width: 188px;
+  height: 100%;
+  margin: 34px auto;
+  line-height: 53px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.crea-cuenta-login{
+  display: flex;
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight: 10;
+  margin: -9px 0 -10px 0;
+}
+
+.crea-cuenta-login a{
+  color: #fff;
+  text-decoration:underline;
+  padding-left: 5px;
+  margin-top: 16px;
+}
+
+.terms a{
+  color: #23006E;
+  font-family: 'Poppins';
+  text-decoration: none;
+}
