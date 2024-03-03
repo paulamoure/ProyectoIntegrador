@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    font-family: 'Anton';
 }
 
 .compra-libros .overlap {
@@ -136,7 +137,7 @@
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     font-family: "Anton-Regular", Helvetica;
-    font-weight: 400;
+    font-weight: 550;
     color: transparent;
     font-size: 24px;
     letter-spacing: 1.68px;
@@ -272,4 +273,12 @@
     width: 433px;
     height: 88px;
     top: 43px;
+}
+
+.overlap-5{
+    left: 19px;
+}
+
+.text-wrapper-4{
+    margin-left: 40px;
 }

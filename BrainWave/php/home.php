@@ -3,32 +3,35 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <title>BrainWave | Home</title>
   <link rel="stylesheet" href="../css/home.css" />
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;900&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;900&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Font Awesome 5 Free:wght@400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Antic Slab:wght@400&display=swap" />
 </head>
-
 <body>
   <div class="home">
     <div class="logros">
-      <div class="logros-child"></div>
-      <div class="logros-item"></div>
-      <div class="logros-inner"></div>
-      <div class="ellipse-div"></div>
-      <div class="logros-child1"></div>
-      <div class="logros-child2"></div>
-      <div class="nosotros">nosotros</div>
-      <div class="logros1">logros</div>
-      <div class="div">50%</div>
-      <div class="div1">70%</div>
-      <div class="div2">90%</div>
-      <div class="mejora-en-la">Mejora en la Concentración</div>
-      <div class="desarrollo-de-habilidades">Desarrollo de Habilidades de Organización</div>
-      <div class="reduccin-del-estrs">Reducción del Estrés y la Ansiedad</div>
+      <div class="logros-sect1">
+        <div class="ellipse"></div>
+        <img class="ellipse-1" src="../img/Ellipse-22.png" />
+        <div class="porcentaje">50%</div>
+      </div>
+      <div class="logros-sect2">
+        <div class="ellipse"></div>
+        <img class="ellipse-2" src="../img/Ellipse-45.png" />
+        <div class="porcentaje">70%</div>
+      </div>
+      <div class="logros-sect3">
+        <div class="ellipse"></div>
+        <img class="ellipse-3" src="../img/Ellipse-90.png" />
+        <div class="porcentaje">90%</div>
+      </div>
+      <div class="nosotros">NOSOTROS</div>
+      <div class="logros-2">LOGROS</div>
+      <div class="mejora-en-la">MEJORA EN LA CONCENTRACIÓN</div>
+      <p class="desarrollo-de">DESARROLLO DE HABILIDADES DE ORGANIZACIÓN</p>
+      <p class="reducci-n-del-estr-s">REDUCCIÓN DEL ESTRÉS Y LA ANSIEDAD</p>
     </div>
     <div class="prioridad">
       <div class="destacar">destacar</div>
@@ -75,8 +78,7 @@
       <div class="que-puedes-hacer">¿Que puedes hacer?</div>
       <div class="todo-lo-que">Todo lo que te ofrecemos</div>
       <div class="polygon-parent" id="groupContainer">
-        <img class="group-child" alt="Hexágono" src="../img/polygon-8.svg" />
-
+        <!-- <img class="group-child" alt="Hexágono" src="../img/polygon-8.svg" /> -->
         <img class="group-item" alt="Borde hexágono" src="../img/polygon-5.svg" />
 
         <div class="group-inner"></div>
@@ -84,7 +86,7 @@
         <img class="book-1-icon" alt="Libros" src="../img/book-1@2x.png" />
       </div>
       <div class="polygon-group" id="groupContainer1">
-        <img class="group-item" alt="Hexágono" src="../img/polygon-8.svg" />
+        <!-- <img class="group-item" alt="Hexágono" src="../img/polygon-8.svg" /> -->
         <img class="group-item" alt="Borde hexágono" src="../img/polygon-5.svg" />
 
         <div class="group-child2"></div>
@@ -92,7 +94,7 @@
         <img class="workshop-1-icon" alt="Personas conectadas" src="../img/workshop-1@2x.png" />
       </div>
       <div class="polygon-container" id="groupContainer2">
-        <img class="group-item" alt="Hexágono" src="../img/polygon-8.svg" />
+        <!-- <img class="group-item" alt="Hexágono" src="../img/polygon-8.svg" /> -->
         <img class="group-item" alt="Borde hexágono" src="../img/polygon-5.svg" />
 
         <div class="group-child5"></div>
@@ -100,7 +102,7 @@
         <img class="microphone-1-1" alt="Micrófono" src="../img/microphone-1-1@2x.png" />
       </div>
       <div class="group-div" id="groupContainer3">
-        <img class="group-item" alt="Hexágono" src="../img/polygon-8.svg" />
+        <!-- <img class="group-item" alt="Hexágono" src="../img/polygon-8.svg" /> -->
         <img class="group-item" alt="Borde hexágono" src="../img/polygon-5.svg" />
 
         <div class="group-child8"></div>
@@ -108,7 +110,7 @@
         <img class="mental-health-1-icon" alt="Cabeza con cerebro animación" src="../img/mentalhealth-1@2x.png" />
       </div>
       <div class="polygon-parent1" id="groupContainer4">
-        <img class="group-item" alt="Hexágono" src="../img/polygon-8.svg" />
+        <!-- <img class="group-item" alt="Hexágono" src="../img/polygon-8.svg" /> -->
         <img class="group-item" alt="Borde hexágono" src="../img/polygon-5.svg" />
 
         <div class="group-child11"></div>
@@ -144,13 +146,13 @@
         </div>
         <div class="brainwave">
           <span class="brainwave-txt">
-            <p class="no-te-cortes">&nbsp;</p>
+            <p class="no-te-cortes">&nbsp;</p><br>
             <p class="brainwave1">Brainwave</p>
           </span>
         </div>
         <div class="welcome-to">Welcome to</div>
         <div class="registro-2">
-          <div class="registro-2-child"><a href="register.php"><b>Unete a brainwave</b></a></div>
+          <div class="registro-2-child"><a href="register.php"><b>Unete a brainwave!</b></a></div>
         </div>
       </div>
       <div class="plantilla">
@@ -165,49 +167,45 @@
         <img class="rompecabezas-4-icon" alt="Pieza rompecabezas" src="../img/rompecabezas-4@2x.png" />
         <img class="rompecabezas-5-icon" alt="Pieza rompecabezas" src="../img/rompecabezas-1@2x.png" />
       </div>
-      <div class="nav1">
-        <img class="IMG" alt="Logo cerebro" src="../img/logo-transp.png" />
-        <div class="servicios2" id="serviciosText"><a href="servicios.php">psicólogos</a></div>
-        <div class="recursos"><a href="2Recursos.php">recursos</a></div>
-        <div class="nosotros2" id="nosotrosText"><a href="aboutUs.php">nosotros</a></div>
-        <div class="boton-primario"><a href="login.php"><button class="button">LOGIN</button></a></div>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="brainwave2">BRAINWAVE</div>
-      <div class="footer-child"></div>
-
-      <div class="contacto">
-        <div class="contacto-child"></div>
-        <div class="subscribe">Subscribe</div>
-        <div class="div3"></div>
-        <div class="div4"></div>
-      </div>
-      <div class="footer12">
-        <img class="footer12-child" alt="" src="../img/rectangle-5@2x.png" />
-        <img class="footer12-item" alt="" src="../img/rectangle-4@2x.png" />
-        <img class="footer12-inner" alt="" src="../img/rectangle-3@2x.png" />
-
-        <div class="botn-contacto">
-          <div class="botn-contacto-child"></div>
-          <div class="contactanos">Contactanos</div>
+        <div class="nav1">
+          <img class="IMG" alt="Logo cerebro" src="../img/logo-transp.png" />
+          <div class="servicios2" id="serviciosText"><a href="servicios.php">psicólogos</a></div>
+          <div class="recursos"><a href="2Recursos.php">recursos</a></div>
+          <div class="nosotros2" id="nosotrosText"><a href="aboutUs.php">nosotros</a></div>
+          <div class="boton-primario"><a href="login.php"><button class="button">LOGIN</button></a></div>
         </div>
-        <div class="redes-sociales">Redes Sociales</div>
-        <div class="politica-de-privacidad">Politica de privacidad</div>
-        <div class="disclamer">Disclamer</div>
-        <div class="terminos-de-uso">Terminos de uso</div>
-      </div>
-      <div class="calle-de-la-container">
-        <p class="no-te-cortes">
-          123 Calle de la Serenidad, Distrito Creativo
-        </p>
-        <p class="no-te-cortes">&nbsp;</p>
-      </div>
-      <div class="brainwaveusgmailcom">Brain.wave.us@gmail.com</div>
-      <div class="brainwave-copyright-">brainwave copyright - own elements
-      </div>
     </div>
+    <footer class="footer">
+      <div class="overlap-5">
+        <div class="text-wrapper-4">BRAINWAVE</div>
+        <div class="rectangle-2"></div>
+        <div class="contacto">
+          <div class="subscribe-wrapper">
+            <div class="subscribe"><a href="register.php">REGISTRATE!</a></div>
+          </div>
+          <div class="text-wrapper-6"><img src="../img/map-icon.png" alt="Map Icon"></div>
+          <div class="text-wrapper-5"><img src="../img/gmail-icon.png" alt="Mail Icon"></div>
+        </div>
+        <div class="footer-2">
+          <img class="rectangle-3" src="../img/instagram.png" />
+          <img class="rectangle-4" src="../img/Twitter.png" />
+          <img class="rectangle-5" src="../img/facebook.png" />
+          <div class="botn-contacto">
+            <div class="contactanos-wrapper">
+              <div class="contactanos"><a href="aboutus.php">CONTÁCTANOS</a></div>
+            </div>
+          </div>
+          <div class="redes-sociales">REDES SOCIALES</div>
+          <div class="politica-de">POLITICA DE PRIVACIDAD</div>
+          <div class="disclamer">DISCLAMER</div>
+          <div class="terminos-de-uso">TERMINOS DE USO</div>
+        </div>
+        <p class="element-calle-de-la">123 CALLE DE LA SERENIDAD, DISTRITO CREATIVO</p>
+        <div class="brain-wave-us-gmail">BRAIN.WAVE.US@GMAIL.COM</div>
+        <p class="brainwave-copyright">BRAINWAVE COPYRIGHT - OWN ELEMENTS</p>
+      </div>
+    </footer>
+
   </div>
 </body>
-
 </html>

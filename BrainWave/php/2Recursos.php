@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="../css/recursos.css" />
     <link rel="stylesheet" href="../css/style.css" />
 </head>
-
 <body>
     <div class="compra-libros">
         <div class="div">
@@ -17,7 +16,7 @@
                         <div class="boton-primario"><a href="login.php"><button class="button">LOGIN</button></a></div>
                         <div class="nosotros2"><a href="aboutUs.php">NOSOTROS</a></div>
                         <div class="recursos"><a href="2Recursos.php">RECURSOS</a></div>
-                        <div class="servicios2"><a href="aboutUs.php">PSICÓLOGOS</a></div>
+                        <div class="servicios2"><a href="">PSICÓLOGOS</a></div>
                     </div>
                     <div class="text-wrapper">RECURSOS</div>
                 </div>
@@ -67,7 +66,6 @@
                     <div class="overlap-5">
                         <div class="text-wrapper-4">BRAINWAVE</div>
                         <div class="rectangle-2"></div>
-                        <div class="misc"></div>
                         <div class="contacto">
                             <div class="subscribe-wrapper">
                                 <div class="subscribe">SUBSCRIBE</div>
@@ -81,7 +79,7 @@
                             <img class="rectangle-5" src="../img/facebook.png" />
                             <div class="botn-contacto">
                                 <div class="contactanos-wrapper">
-                                    <div class="contactanos">CONTACTANOS</div>
+                                    <div class="contactanos">CONTÁCTANOS</div>
                                 </div>
                             </div>
                             <div class="redes-sociales">REDES SOCIALES</div>

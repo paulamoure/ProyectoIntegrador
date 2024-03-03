@@ -60,133 +60,6 @@
     width: 25%;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-nav li {
-    margin-right: 10px;
-}
-
-nav a {
-    text-decoration: none; /* Elimina la decoración de subrayado en los enlaces */
-    color: white; /* Color del texto */
-    padding: 8px 12px; /* Añade relleno alrededor del texto */
-    border-radius: 5px; /* Agrega esquinas redondeadas */
-    font-size: 20px;
-}
-
-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Cambia el color de fondo cuando se pasa el ratón sobre el enlace */
-}
-
-.box4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-}
-
-.box4 a{
-    color: black;
-}
-
-.container2{
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container2 h1{
-    width: 80%;
-    color: white;
-    font-size: 60px;
-    font-family: "Anton-Regular", Helvetica;
-    font-weight: bolder;
-}
-
-.container3{
-    width: 100%;
-    height: 1500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.chat_box{
-    width: 50%;
-    height: 83%;
-    display: flex;
-    background-color: white;
-    border-radius: 15px;
-    flex-wrap: wrap;
-    box-shadow: 4px 8px rgba(0, 0, 0, 0.1)
-}
-
-.perfil{
-    width: 100%;
-    height: 150px;
-    background: linear-gradient(to bottom right, #FEB055, #FE7F56, #F05A54, #D82C6A);
-    display: flex;
-    align-items: center;
-    font-family: "Anton-Regular", Helvetica;
-    color: white;
-    border-radius: 15px 15px 0px 0px;
-}
-
-.perfil img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    margin-left: 50px;
-}
-
-.perfil h2{
-    margin-left: 50px;
-}
-
-.chat{
-    display: flex;
-    width: 100%;
-    height: 1000px;
-    justify-content: center;
-    background-image: url(fondo.jpg);
-    background-position: top;
-}
-
-.teclado{
-    width: 100%;
-    height: 100px;
-    background-color: #CECECE;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0px 0px 15px 15px;
-}
-
-.search-input2{
-    width: 75%;
-    height: 50px;
-    border-radius: 10px;
-    padding-left: 20px;
-    border: 0;
-}
-
-.enviar{
-    width: 10%;
-    height: 50px;
-    background-color: #00DD23;
-    border-radius: 10px;
-    color: white;
-    border: 0;
-    margin-left: 20px;
-} 
-
 .div {
     background-color: #ffffff;
     overflow: hidden;
@@ -279,21 +152,20 @@ nav a:hover {
   justify-content: center;
   height: 25px;
   top: 40px;
+  cursor: pointer;
 }
 .servicios2 {
   left: 940px;
   width: 89px;
-  cursor: pointer;
 }
-.nosotros2,
 .recursos {
   left: 1057px;
   width: 92px;
 }
+
 .nosotros2{
   left: 1164px;
   width: 95px;
-  cursor: pointer;
 }
 
 .servicios2 a,
@@ -301,6 +173,13 @@ nav a:hover {
 .nosotros2 a{
   text-decoration: none;
   color: white;
+  padding: 8px 10px;
+}
+.servicios2 a:hover,
+.recursos a:hover,
+.nosotros2 a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
 }
 
 .IMG {
@@ -351,7 +230,7 @@ nav a:hover {
     width: 1219px;
     top: -70px;
     margin-top: 90px;
-    left: 143px;
+    left: 120px;
     background: linear-gradient(
         180deg,
         rgb(98.51, 242.24, 181.72) 0%,
@@ -386,16 +265,6 @@ nav a:hover {
     );
 }
 
-.misc {
-    position: absolute;
-    width: 1332px;
-    height: 1px;
-    top: 573px;
-    left: 66px;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
 .contacto {
     position: absolute;
     width: 203px;
@@ -405,22 +274,22 @@ nav a:hover {
 }
 
 .subscribe-wrapper {
-    position: absolute;
+    position: relative;
     width: 197px;
     height: 71px;
     top: 167px;
     left: 0;
-    background-color: rgba(71, 223, 159, 1);
+    background-color: white;
     border-radius: 15px;
-    border: 1px solid;
-    border-color: #000000;
+    border: 7px solid;
+    border-color: rgba(71, 223, 159, 1);
 }
 
 .subscribe {
     position: absolute;
     width: 111px;
-    top: 25px;
-    left: 43px;
+    top: 20px;
+    left: 30px;
     font-family: "Poppins", Helvetica;
     font-weight: 600;
     color: #000000;
@@ -428,8 +297,15 @@ nav a:hover {
     text-align: center;
     letter-spacing: 1.5px;
     line-height: normal;
-    font-style: normal;
 }
+.subscribe a{
+    text-decoration: none;
+    color: black;
+}
+.subscribe-wrapper:hover{
+    background-color: rgba(71, 223, 159, 1);
+}
+
 
 .text-wrapper-6 img{
     width: 35px;
@@ -506,24 +382,30 @@ nav a:hover {
     position: relative;
     width: 197px;
     height: 71px;
-    background-color: rgba(133, 197, 255, 1);
+    background-color: white;
     border-radius: 15px;
-    border: 2px solid;
-    border-color: #000000;
+    border: 7px solid;
+    border-color: rgba(133, 197, 255, 1);
 }
 
 .contactanos {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 20px;
+    left: 20px;
     font-family: "Poppins", Helvetica;
     font-weight: 700;
-    color: #000000;
     font-size: 17px;
     text-align: center;
     letter-spacing: 1.5px;
     line-height: normal;
     font-style: normal;
+}
+.contactanos a{
+    text-decoration: none;
+    color: black;
+}
+.contactanos-wrapper:hover{
+    background-color: rgb(208, 232, 255);
 }
 
 .redes-sociales {
@@ -554,7 +436,7 @@ nav a:hover {
 }
 
 .disclamer {
-    position: absolute;
+    position: relative;
     width: 106px;
     top: 337px;
     left: 779px;
@@ -563,7 +445,6 @@ nav a:hover {
     color: #000000;
     font-size: 14px;
     letter-spacing: 0.98px;
-    line-height: normal;
 }
 
 .terminos-de-uso {
@@ -620,24 +501,4 @@ nav a:hover {
     font-size: 10px;
     letter-spacing: 1px;
     line-height: normal;
-}
-
-@media (max-width:720px){
-    .footer{
-    text-align:left;
-    padding:5%;
-}
-.footer .row ul li{
-    display:block;
-    margin:10px 0px;
-    text-align:left;
-}
-.footer .row a i{
-    margin:0% 3%;
-}
-}
-
-.enviar:hover{
-    background-color: darkgreen;
-    cursor: pointer;
 }
