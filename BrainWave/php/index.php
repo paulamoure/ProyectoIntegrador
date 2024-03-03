@@ -1,5 +1,5 @@
 <?php
-    include 'php/db.php';
+    include 'psychologists-db.php';
     session_start();
 
     $query = mysqli_query($conn,"SELECT * FROM team");
